@@ -10,7 +10,7 @@ function BookList() {
 
   useEffect(() => {
     axios
-      .get('https://wdg014-bookstack-wpjy.onrender.com')
+      .get('https://wdg014-bookstack-wpjy.onrender.com/books')
       .then((res) => {
         //   console.log(res.data);
         setBooks(res.data);
